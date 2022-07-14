@@ -77,6 +77,7 @@ $('#total_weight').change(function() {
     var total_price = berat*price; 
     $('#price').val(total_price)
 });
+// end
 
 </script>
 @endsection
