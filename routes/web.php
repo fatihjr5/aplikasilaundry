@@ -23,4 +23,4 @@ Auth::routes([
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/', [App\Http\Controllers\CheckController::class, 'index'])->name('cek');
 Route::resource('orders', App\Http\Controllers\OrderController::class);
-// Route::resource('keuangan', App\Http\Controllers\KeuanganController::class);
+Route::resource('keuangan', App\Http\Controllers\KeuanganController::class);
